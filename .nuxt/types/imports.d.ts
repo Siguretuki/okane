@@ -64,6 +64,7 @@ declare global {
   const makeDestructurable: typeof import('@vueuse/core')['makeDestructurable']
   const markRaw: typeof import('vue')['markRaw']
   const mergeModels: typeof import('vue')['mergeModels']
+  const nameList: typeof import('../../composables/nameList')['nameList']
   const navigateTo: typeof import('../../node_modules/nuxt/dist/app')['navigateTo']
   const nextTick: typeof import('vue')['nextTick']
   const onActivated: typeof import('vue')['onActivated']
@@ -416,6 +417,7 @@ declare module 'vue' {
     readonly makeDestructurable: UnwrapRef<typeof import('@vueuse/core')['makeDestructurable']>
     readonly markRaw: UnwrapRef<typeof import('vue')['markRaw']>
     readonly mergeModels: UnwrapRef<typeof import('vue')['mergeModels']>
+    readonly nameList: UnwrapRef<typeof import('../../composables/nameList')['nameList']>
     readonly navigateTo: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['navigateTo']>
     readonly nextTick: UnwrapRef<typeof import('vue')['nextTick']>
     readonly onActivated: UnwrapRef<typeof import('vue')['onActivated']>
@@ -762,6 +764,7 @@ declare module '@vue/runtime-core' {
     readonly makeDestructurable: UnwrapRef<typeof import('@vueuse/core')['makeDestructurable']>
     readonly markRaw: UnwrapRef<typeof import('vue')['markRaw']>
     readonly mergeModels: UnwrapRef<typeof import('vue')['mergeModels']>
+    readonly nameList: UnwrapRef<typeof import('../../composables/nameList')['nameList']>
     readonly navigateTo: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['navigateTo']>
     readonly nextTick: UnwrapRef<typeof import('vue')['nextTick']>
     readonly onActivated: UnwrapRef<typeof import('vue')['onActivated']>

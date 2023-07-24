@@ -1,13 +1,1 @@
----
-title: 'Title of the page'
-description: 'meta description of the page'
----
-
-# こんにちは！Content!
-
-test
-
-## test
-
-テスト中
-
+{"parsed":{"_path":"/test","_dir":"","_draft":false,"_partial":false,"_locale":"","_empty":false,"title":"Title of the page","description":"meta description of the page","body":{"type":"root","children":[{"type":"element","tag":"h1","props":{"id":"こんにちはcontent"},"children":[{"type":"text","value":"こんにちは！Content!"}]},{"type":"element","tag":"p","props":{},"children":[{"type":"text","value":"test"}]},{"type":"element","tag":"h2","props":{"id":"test"},"children":[{"type":"text","value":"test"}]},{"type":"element","tag":"p","props":{},"children":[{"type":"text","value":"テスト中"}]}],"toc":{"title":"","searchDepth":2,"depth":2,"links":[{"id":"test","depth":2,"text":"test"}]}},"_type":"markdown","_id":"content:test.md","_source":"content","_file":"test.md","_extension":"md"},"hash":"KRxMRkhSOj"}
