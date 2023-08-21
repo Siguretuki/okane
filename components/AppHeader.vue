@@ -1,11 +1,14 @@
 <template>
         <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="~/assets/img/okane.png" alt=""  height="80">
                 </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item">
+                    <a class="nav-link" href="/homepage">会社ページ</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="nav-in" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         各種入力
