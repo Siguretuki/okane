@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="row">
+        <div class="row p-4">
             <div class="col-3 border">
                 <h1 class="text-center py-4">各種入力</h1>
                 <div class="pt-4">
